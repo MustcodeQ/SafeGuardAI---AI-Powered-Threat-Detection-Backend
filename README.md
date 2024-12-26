@@ -12,7 +12,7 @@ SafeGuardAI is an AI-driven system for detecting malware in files and identifyin
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-MustcodeQ/SafeGuardAI---AI-Powered-Threat-Detection-Backend.git
+   git clone https://github.com/MustcodeQ/SafeGuardAI---AI-Powered-Threat-Detection-Backend.git
 
 ### On Linux/Mac:
 ```bash
