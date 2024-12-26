@@ -1,0 +1,33 @@
+/* alert.css - Styling for Notifications */
+
+.safeguard-notification {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    z-index: 9999;
+    opacity: 0.95;
+    animation: slide-in 0.5s ease-out;
+}
+
+.safeguard-notification.alert-danger {
+    background-color: #d9534f; /* Red for danger */
+}
+
+.safeguard-notification.alert-warning {
+    background-color: #f0ad4e; /* Yellow for warnings */
+}
+
+@keyframes slide-in {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
