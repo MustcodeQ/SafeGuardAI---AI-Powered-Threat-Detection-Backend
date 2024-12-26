@@ -21,6 +21,10 @@ source venv/bin/activate
 ```
 
 ### On Windows:
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
 bash
 ```bash
 pip install -r requirements.txt
