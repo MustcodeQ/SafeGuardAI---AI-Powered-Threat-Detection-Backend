@@ -4,7 +4,7 @@ SafeGuardAI is an AI-driven system for detecting malware in files and identifyin
 
 ## Features 🚀
 
-- **File Analysis:** AI-powered malware detection in files based on their hash values.
+- **File Analysis:** AI-powered malware detection in files based on their hash values .
 - **URL Scanning:** Detects potential phishing attacks in URLs using AI models.
 - **RESTful API:** Simple and accessible API endpoints for secure integration.
 
